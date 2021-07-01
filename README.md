@@ -2,11 +2,11 @@
 
 This repo contains the code I use to update [my avatar on Twitter](https://twitter.com/sadalsvvd) dynamically at regular intervals. It changes the person in the avatar roughly once a day, but also changes the glitch variation in the person in the avatar throughout that time as well. The script also keeps track of how often I have been tweeting; if I tweet a lot during an interval it compresses the time before switching to another person. I did this to remind myself when I am tweeting a lot, but also to make it more likely that someone will notice my picture change if they are reading a tweetstorm of mine.
 
-The avatar pictures live in the `identities` folder, which must contain at plain numbered folders, and must have at least a folder named `1`. Each folder must contain at _least_ a `glitch-0.jpg` file. However, any .jpg file prefixed with `glitch-` will be used by the script after `glitch-0.jpg`, so you could next have `glitch-3.jpg`, `glitch-az.jpg`, etc. but the script will always start by default with the first folder and first identity until state is generated (happens on startup).
+The avatar pictures live in the `identities` folder, which must contain plain numbered folders, and must have at least a folder named `1`. Each folder must contain at _least_ a `glitch-0.jpg` file. However, any .jpg file prefixed with `glitch-` will be used by the script after `glitch-0.jpg`, so you could next have `glitch-3.jpg`, `glitch-az.jpg`, etc. but the script will always start by default with the first folder and first identity until state is generated (happens on startup).
 
 If that's confusing, just look in the `identities` folder--you'll get it.
 
-Trivia: in my actual code I use about 40 different characters from thispersondoesnotexist.com and about 10-15 variants run through photomosh.com.
+Trivia: in my actual code I use about 40 different characters from [thispersondoesnotexist.com](thispersondoesnotexist.com) and about 10-15 variants run through [photomosh.com](photomosh.com).
 
 Disclaimer: I wrote this in a few hours and this code is bad. Not terrible, but bad. This does not reflect how I code in professional contexts ;)
 
