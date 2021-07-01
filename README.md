@@ -8,6 +8,8 @@ If that's confusing, just look in the `identities` folder--you'll get it.
 
 Trivia: in my actual code I use about 40 different characters from thispersondoesnotexist.com and about 10-15 variants run through photomosh.com.
 
+Disclaimer: I wrote this in a few hours and this code is bad. Not terrible, but bad. This does not reflect how I code in professional contexts ;)
+
 ## Adapting for your use
 
 I run this script as a Heroku project with the Heroku Scheduler and Redis To Go add-ons which at these tiers are completely free:
