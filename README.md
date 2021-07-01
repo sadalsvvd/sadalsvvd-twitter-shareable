@@ -37,6 +37,14 @@ For reference this is what my Heroku env config looks like (with secret tokens o
 
 ![](https://i.imgur.com/GceH58b.png)
 
+Finally, you will need to update line 6 in `api.py`:
+
+```
+HARDCODED_USERNAME='sadalsvvd'
+```
+
+to your own username. Or make it ingest an environment variable, which I was too lazy to do.
+
 ### Persistence
 
 A JSON data object containing the state of available images and timing of the last image update gets created and stored in a datastore. My implementation stores this in a free redistogo instance on Heroku. If you want to run this script as a long-running process you can simply store and read from the `identities_def.json` file as a local file.
