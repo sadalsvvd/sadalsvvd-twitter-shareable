@@ -1,4 +1,4 @@
 python-twitter==3.5
 python-dotenv==0.14.0
 flask==1.1.2
-redis==2
+redis==3
